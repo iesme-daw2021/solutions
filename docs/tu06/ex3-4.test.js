@@ -16,6 +16,24 @@ describe('pow', () => {
 });
 
 describe('Positive vs Negative', () => {
+  test('24 calls YES callback', () => {
+    const mockYes = jest.fn();
+    const mockNo = jest.fn();
+    ask(24, mockYes, mockNo);
+    expect(mockYes).toHaveBeenCalledTimes(1);
+    expect(mockNo).toHaveBeenCalledTimes(0);
+  });
+
+  test('-24 calls NO callback', () => {
+    const mockYes = jest.fn();
+    const mockNo = jest.fn();
+    ask(-24, mockYes, mockNo);
+    expect(mockYes).toHaveBeenCalledTimes(0);
+    expect(mockNo).toHaveBeenCalledTimes(1);
+  });
+});
+
+describe('Alternative Positive vs Negative', () => {
   it('Is Positive for 23', () => {
     console.info = jest.fn();
 
