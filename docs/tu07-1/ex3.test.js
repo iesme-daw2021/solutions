@@ -1,4 +1,3 @@
-import { expect, it } from '@jest/globals';
 import sumSalaries from './ex3';
 
 it('agregates salaries from an object', () => {

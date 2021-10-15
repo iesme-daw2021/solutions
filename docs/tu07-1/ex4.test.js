@@ -1,4 +1,3 @@
-import { expect, it } from '@jest/globals';
 import multiplyNumeric from './ex4';
 
 it('doubles just the number properties', () => {
