@@ -1,4 +1,4 @@
-import sumSalaries from './ex3';
+import sumSalaries from '../../docs/tu07-1/ex3';
 
 it('agregates salaries from an object', () => {
   expect(

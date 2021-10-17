@@ -1,4 +1,4 @@
-import multiplyNumeric from './ex4';
+import multiplyNumeric from '../../docs/tu07-1/ex4';
 
 it('doubles just the number properties', () => {
   const menu = {

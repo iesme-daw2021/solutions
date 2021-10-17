@@ -1,4 +1,4 @@
-import isEven from './ex1';
+import isEven from '../../docs/tu06/ex1';
 
 test('7 is odd', () => {
   expect(isEven(7)).toBe(false);

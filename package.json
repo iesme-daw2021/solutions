@@ -1,0 +1,22 @@
+{
+  "name": "tu07-2",
+  "version": "1.0.0",
+  "description": "objects exercises ies maria enriuquez",
+  "private": "true",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "javascript",
+    "dwec",
+    "2021",
+    "iesme"
+  ],
+  "author": "Xavi Martinez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.15.4",
+    "babel-jest": "^27.2.1",
+    "jest": "^27.2.1"
+  }
+}

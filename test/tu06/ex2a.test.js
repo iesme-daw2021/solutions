@@ -1,4 +1,4 @@
-import checkAge from './ex2a';
+import checkAge from '../../docs/tu06/ex2a';
 
 test('A 17 years old person is not an adult', () => {
   expect(checkAge(17)).toBe(false);

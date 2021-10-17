@@ -1,5 +1,5 @@
-import { pow } from './ex3';
-import ask from './ex4';
+import { pow } from '../../docs/tu06/ex3';
+import ask from '../../docs/tu06/ex4';
 
 describe('pow', () => {
   test('pow(2, 6) is 64', () => {
