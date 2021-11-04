@@ -1,0 +1,30 @@
+{
+  "year": 2021,
+  "city": "Gandia",
+  "school": "IES Maria Enriquez",
+  "active": true,
+  "numberOfStudents": 12,
+  "teacher": {
+    "name": "Xavi",
+    "age": 46,
+    "car": {
+      "brand": "Seat",
+      "model": "Leon",
+      "year": 2015
+    }
+  },
+  "students": [
+    {
+      "name": "student 1",
+      "age": 21,
+      "male": false,
+      "hobbies": ["reading", "travel", "playing football"]
+    },
+    {
+      "name": "student 2",
+      "age": 32,
+      "male": true,
+      "hobbies": ["cooking", "gaming", "theater"]
+    }
+  ]
+}
